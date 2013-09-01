@@ -1,0 +1,96 @@
+*, *:after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.smenu-main {
+	padding: 0;
+	margin: 0;
+	line-height: 60px;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.smenu-scroller {
+	position: fixed;
+	top: 0;
+	left: 0;
+	-moz-box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+	-ms-box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+ 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.smenu-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.smenu-menu a {
+    display: table;
+    min-width: 150px;
+    color: #5f6f81;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.smenu-content {
+	text-align: left;
+	padding-left: 10px;
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #f5f5f5;
+}
+
+.smenu-main a:hover > .smenu-content {
+	background: none;
+	color: #f5f5f5;
+}
+
+.smenu-icon {
+	display: table-cell;
+	vertical-align:middle;
+	width: 46px;
+}
+
+.smenu-icon img {
+	margin: 0 13px 0 13px;
+	padding-top: 20px;
+}
+
+.smenu-color-white {
+	
+}
+
+.smenu-color-black {
+	background-color: #444;
+}
+
+.smenu-color-red {
+	background-color: #ce5043;
+}
+
+.smenu-color-green {
+	background-color: #b3c833;
+}
+
+.smenu-color-orange {
+	background-color: #fb8521;
+}
+
+.smenu-color-yellow {
+	
+}
+
+.smenu-color-blue {
+	
+}
+
+.smenu-color-purple{
+	
+}
